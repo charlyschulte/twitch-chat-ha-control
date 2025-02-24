@@ -1,0 +1,6 @@
+send_message:
+  description: "Send a message to Twitch chat"
+  fields:
+    message:
+      description: "Message to send"
+      example: "Lights turned red!"
