@@ -18,7 +18,7 @@ This automation allows Twitch chat commands to change the color of your lights a
 Setup
 
     Add the following automation to your Home Assistant automations:
-
+```
 alias: Twitch Lights Control
 description: "Control lights via Twitch chat"
 trigger:
@@ -60,6 +60,6 @@ action:
           - service: twitch_control.send_message
             data:
               message: "⚠️ Currently not supported"
-
+```
     Replace light.your_light with your actual light entity ID.
     Now, when a Twitch chat command triggers the event, the light will change accordingly! 💡
